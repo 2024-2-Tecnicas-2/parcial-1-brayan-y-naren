@@ -1,9 +1,9 @@
 package com.mycompany.parcial1;
 
-public class Producto {
-    String nombre;
-    String Descripcion;
-    int inventario;
-    double precio;
+public abstract class Producto {
+    public String nombre;
+    public String Descripcion;
+    public int inventario;
+    public double precio;
     
 }
