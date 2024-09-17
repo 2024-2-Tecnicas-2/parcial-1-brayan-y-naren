@@ -12,4 +12,3 @@ public class Telefono extends Producto {
         super(null, null, 0, 0);
     }
 }
-s

@@ -6,12 +6,7 @@ package com.mycompany.parcial1;
 
 
 public class Laptop extends Producto {
-<<<<<<< HEAD
-    
 
-=======
- private String marca;
->>>>>>> origin/master
     public Laptop(String nombre, String Descripcion, int inventario, double precio) {
         super(nombre, Descripcion, inventario, precio);
     }
