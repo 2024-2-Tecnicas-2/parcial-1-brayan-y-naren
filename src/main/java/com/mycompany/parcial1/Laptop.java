@@ -5,6 +5,10 @@
 package com.mycompany.parcial1;
 
 
-public class Laptop {
+public class Laptop extends Producto {
+
+    public Laptop(String nombre, String Descripcion, int inventario, double precio) {
+        super(nombre, Descripcion, inventario, precio);
+    }
     
 }
