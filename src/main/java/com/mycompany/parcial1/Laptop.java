@@ -11,9 +11,11 @@ public class Laptop extends Producto {
     public Laptop(String nombre, String Descripcion, int inventario, double precio) {
         super(nombre, Descripcion, inventario, precio);
     }
+    
+    public Laptop(){
+        super(null, null, 0, 0);
+    }
 
-    Laptop() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
-}
+

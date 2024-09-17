@@ -20,8 +20,8 @@ public static Scanner sc = new Scanner(System.in);
             switch (opc) {
                 case 1:
                     System.out.println("1. Laptop");
-                    System.out.println("2. Smartphone");
-                    System.out.println("3. Tablet");
+                    System.out.println("2. Telefono");
+                    System.out.println("3. Accesorio");
                     System.out.print("Ingrese una opción: ");
                     opc = Integer.parseInt(sc.nextLine());
                     switch (opc) {
@@ -44,7 +44,7 @@ public static Scanner sc = new Scanner(System.in);
                         }
                         case 2: {
                             Telefono newTelefono = new Telefono();
-                            System.out.print("Ingrese la nombre de la laptop: ");
+                            System.out.print("Ingrese la nombre de la Telefono: ");
                             String nombre = sc.nextLine();
                             newTelefono.setNombre(nombre);
                             System.out.print("Ingrese el nombre del decripcion: ");
