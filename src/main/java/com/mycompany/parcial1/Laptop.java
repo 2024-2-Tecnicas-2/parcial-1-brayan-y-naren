@@ -6,7 +6,7 @@ package com.mycompany.parcial1;
 
 
 public class Laptop extends Producto {
-
+ private String marca;
     public Laptop(String nombre, String Descripcion, int inventario, double precio) {
         super(nombre, Descripcion, inventario, precio);
     }
